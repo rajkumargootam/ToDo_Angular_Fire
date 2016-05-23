@@ -17,6 +17,9 @@
    vm.removeTodo = function(todo){
       vm.todos.$remove(todo);
    }
+   vm.editTodo = function(todo){
+     vm.todos.$save(todo);
+   }
   }
 
 })();

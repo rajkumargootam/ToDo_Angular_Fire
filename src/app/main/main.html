@@ -1,6 +1,6 @@
 <div class="container">
 
- <h2>My to do's</h2>
+ <h2>My to doos</h2>
 
  <!-- Todos input -->
   <form role="form" ng-submit="main.addTodo()">
@@ -19,6 +19,7 @@
     <input type="text" ng-model="todo.name" class="form-control">
     <span class="input-group-btn">
       <button class="btn btn-danger" ng-click="main.removeTodo(todo)" aria-label="Remove">X</button>
+      <button class="btn btn-primry" ng-click="main.editTodo(todo)" aria-label="Edit">Edit</button>
     </span>
   </p>
 </div>
